@@ -1,0 +1,81 @@
+.components-layout-demo-custom-trigger{
+    height: 100%;
+    width: 100%;
+}
+.components-layout-demo-custom-trigger .trigger {
+    margin: 20px 0 0 30px;
+    font-size: 18px;
+    /* line-height: 64px;
+    padding: 0 24px; */
+    cursor: pointer;
+    transition: color 0.3s;
+    /* float: left; */
+}
+  
+.components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+.components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+    cursor: pointer;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.components-layout-demo-custom-trigger .ant-layout-sider-children{
+    background: #fff;
+}
+
+.components-layout-demo-custom-trigger .ant-layout-content{
+    background: #f9f9f9;
+}
+
+.components-layout-demo-custom-trigger .site-layout{
+    background: #f9f9f9;
+}
+.components-layout-demo-custom-trigger .searchInput{
+    width: 600px;
+    margin: 15px auto;
+}
+.components-layout-demo-custom-trigger .menuHeader{
+    text-align: center;
+    /* margin-top */
+}
+
+.components-layout-demo-custom-trigger .menuList{
+    margin-top: 15px;
+}
+.components-layout-demo-custom-trigger .userInfoHeader{
+    float: right;
+    margin: 15px 30px 15px 0;
+    cursor: pointer;
+}
+
+.MenuSider b{
+    display: inline-block;
+    background: red;
+    width: 89px;
+    height: 33px;
+    background-image: url(../../static/imgs/youtube.png);
+    cursor: pointer;
+    /* margin-left: 15px; */
+}
+
+.pageProgressLoading{
+    position: fixed !important;
+    z-index: 999;
+    top: -8px;
+}
+
+.userLoginPre p{
+    cursor: pointer;
+}
+
+.userLoginPre p:hover{
+    color: #218ffe;
+}

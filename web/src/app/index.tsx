@@ -7,6 +7,7 @@ const { Header, Content, Footer } = Layout;
 export default class extends React.Component<any, any> {
 
     render(){
+    
 
         return (
             <BrowserRouter>

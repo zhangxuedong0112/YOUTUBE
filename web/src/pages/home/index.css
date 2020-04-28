@@ -1,0 +1,10 @@
+.contentVideosPre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.contentVideosDom{
+    margin: 0 0 15px 15px;
+    width: 18%;
+}

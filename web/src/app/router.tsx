@@ -10,6 +10,7 @@ import Layout from './layout/index';
 let development = process.env.NODE_ENV === "development"
 
 const router:RouteConfig[] = [
+   
     {
         path: "/",
         component: Layout,//有侧边栏
@@ -25,6 +26,11 @@ const router:RouteConfig[] = [
                 exact: true,
                 component: React.lazy(() => import("../pages/home/index"))
             }
+            // {
+            //     path: "/program/:programId/:programType/:actionType",
+            //     exact: true,
+            //     component: React.lazy(() => import("pages/program"))
+            // },
         ]
     }
 ]
